@@ -4,12 +4,14 @@ A Discord Bot integrated with openai for various fun slash commands. This projec
 
 ## Features
 
-- Discord API Integration - Application Command Registration
-- Discord API Integration - Application Command Request Handling
-- OpenAI API Integration - Chat Completion
+- [Discord API Integration][discord-api-docs] - Application Command Registration & Request Handling
+- [OpenAI API Integration][openai-api-docs] - Chat Completion
+
+## Useful Links
+
+
 
 ## Setup
-
 - Pull the repo
 - Copy & fill out the `.env.example` file
 - Open terminal in project root directory and then run
@@ -20,6 +22,7 @@ npm run dev
 ```
 
 This will start a nodemon server allowing you to explore the project locally and see the changes instantly.
+Be sure to set up a billable api key with [openai][openai-api-keys] before begining or most of this program wont work.
 
 ## Slash Commands
 
@@ -51,3 +54,7 @@ Supports the following params
   description: 'Includes a short sentence about the username',
 }
 ```
+
+[discord-api-docs]: https://discord.com/developers/docs/interactions/application-commands
+[openai-api-docs]: https://platform.openai.com/docs/guides/chat
+[openai-api-keys]: https://platform.openai.com/account/api-keys
