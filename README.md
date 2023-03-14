@@ -52,6 +52,21 @@ Supports the following params
 }
 ```
 
+### /badadvice
+
+Generates bad advice based on the given text_prompt.
+
+i.e. "how to catch a fish" or "how to do good in school"
+
+Supports the following params
+
+```js
+{
+  name: 'text_prompt',
+  description: 'Manually enter the type of username to generate',
+}
+```
+
 [discord-api-docs]: https://discord.com/developers/docs/interactions/application-commands
 [openai-api-docs]: https://platform.openai.com/docs/guides/chat
 [openai-api-keys]: https://platform.openai.com/account/api-keys
