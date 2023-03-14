@@ -2,9 +2,9 @@
  A Discord Bot integrated with openai for various fun slash commands. This project is mainly a playground for me to explore the discord api and openai api.
 
 # Setup
--Pull the repo
--Copy & fill out the `.env.example` file
-- and then run
+- Pull the repo
+- Copy & fill out the `.env.example` file
+- Open terminal in project root directory and then run
  ```shell
  npm i
  npm run dev
